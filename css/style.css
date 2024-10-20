@@ -348,33 +348,39 @@ button {
     padding-left: 20px;
 }
 
-.play_icon img {
-    width: 80px;
-}
-
 .play_icon {
-    width: 100%;
-    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin: -40px 0; /* Quitar el auto en margen para evitar centrar el icono */
     position: relative;
     z-index: 5;
+    left: -90px; /* Mover el icono a la izquierda */
+    cursor: pointer; /* Cambiar el cursor para indicar que es clicable */
+}
+
+.play_icon img {
+    width: 100%;
+    height: 100%;
+    top: -40px;
+    position: relative;
+    z-index: 10; /* Asegurarse de que la imagen esté por encima del pseudo-elemento */
 }
 
 .play_icon::before {
     content: '';
     position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 90px;
-    height: 90px;
+    top: 20%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
     transform: translate(-50%, -50%);
     background-color: #f5c729;
     border-radius: 100%;
     animation: fadeEffect 1.3s infinite ease;
     box-shadow: 0px 0px 10px 0px;
-    right: initial;
-    margin: 0 auto;
     z-index: -1;
 }
+
 
 @keyframes fadeEffect {
     0% {
@@ -755,7 +761,7 @@ button {
 
 .blog_img {
     width: 100%;
-    background-image: url(../images/blog-img1.png);
+    background-image: url(../images/confianza.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -763,7 +769,7 @@ button {
 
 .blog_img_2 {
     width: 100%;
-    background-image: url(../images/blog-img2.png);
+    background-image: url(../images/interesInd.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -771,12 +777,64 @@ button {
 
 .blog_img_3 {
     width: 100%;
-    background-image: url(../images/blog-img3.png);
+    background-image: url(../images/interesGrup.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_4 {
+    width: 100%;
+    background-image: url(../images/habilidad.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
+.blog_img_5 {
+    width: 100%;
+    background-image: url(../images/feedback.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.blog_img_6 {
+    width: 100%;
+    background-image: url(../images/utilidad.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_7 {
+    width: 100%;
+    background-image: url(../images/tiempo.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.blog_img_8 {
+    width: 100%;
+    background-image: url(../images/sentimiento.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.blog_img_9 {
+    width: 100%;
+    background-image: url(../images/junta.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_10 {
+    width: 100%;
+    background-image: url(../images/miedo.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .date_text {
     width: 160px;
     margin: 0 auto;
@@ -791,6 +849,7 @@ button {
 .prep_text {
     width: 100%;
     font-size: 20px;
+    top:-80px;
     color: #fefefd;
     font-weight: bold;
     padding: 250px 20px 20px 20px;
