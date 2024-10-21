@@ -233,12 +233,14 @@ button {
     float: left;
     background-image: url(../images/banner-bg.png);
     height: auto;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 
 .header_bg {
-    background: #000;
+    background: #062623;
 }
 
 .bg-light {
@@ -271,6 +273,7 @@ button {
 
 .navbar {
     padding: 30px 0px 30px 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -282,7 +285,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding: 0px 0px 220px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .banner_taital_main {
@@ -320,8 +323,6 @@ button {
     padding: 0px;
     display: inline-block;
 }
-
-.social_icon li {}
 
 .social_icon li a {
     float: left;
@@ -601,10 +602,11 @@ button {
     color: #f5c729;
     font-weight: bold;
     text-align: center;
+    margin-top: -50px;
 }
 
 .portfolio_taital_1 {
-    color: #292929;
+    color: #f0f0ef;
     border-bottom: 5px solid #363636;
 }
 
@@ -831,6 +833,13 @@ button {
 .blog_img_10 {
     width: 100%;
     background-image: url(../images/miedo.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_11 {
+    width: 100%;
+    background-image: url(../images/recursos.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
