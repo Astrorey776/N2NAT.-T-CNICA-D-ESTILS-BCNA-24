@@ -772,7 +772,7 @@ button {
 .blog_img_2 {
     width: 100%;
     background-image: url(../images/interesInd.png);
-    height: auto;
+    height: 390px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -780,14 +780,14 @@ button {
 .blog_img_3 {
     width: 100%;
     background-image: url(../images/interesGrup.png);
-    height: auto;
+    height: 390px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .blog_img_4 {
     width: 100%;
     background-image: url(../images/habilidad.png);
-    height: auto;
+    height: 390px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -795,7 +795,7 @@ button {
 .blog_img_5 {
     width: 100%;
     background-image: url(../images/feedback.png);
-    height: auto;
+    height: 390px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -810,7 +810,7 @@ button {
 .blog_img_7 {
     width: 100%;
     background-image: url(../images/tiempo.png);
-    height: auto;
+    height: 390px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -818,7 +818,7 @@ button {
 .blog_img_8 {
     width: 100%;
     background-image: url(../images/sentimiento.png);
-    height: auto;
+    height: 400px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -826,28 +826,28 @@ button {
 .blog_img_9 {
     width: 100%;
     background-image: url(../images/junta.png);
-    height: auto;
+    height: 420px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .blog_img_10 {
     width: 100%;
     background-image: url(../images/miedo.png);
-    height: auto;
+    height: 420px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .blog_img_11 {
     width: 100%;
     background-image: url(../images/recursos.png);
-    height: auto;
+    height: 400px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .blog_img_12 {
     width: 100%;
     background-image: url(../images/presion.png);
-    height: auto;
+    height: 440px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -878,6 +878,7 @@ button {
     margin: 0px;
     padding: 20px 20px;
     font-weight: 500;
+    margin-top:-50px;
 }
 
 .readmore_bt_1 {
@@ -886,6 +887,8 @@ button {
     text-align: center;
     margin-top: 50px;
 }
+
+
 
 .readmore_bt_1 a {
     width: 100%;
@@ -1064,6 +1067,14 @@ textarea#comment.massage-bt::placeholder {
     background-color: #252f2d;
     height: auto;
     padding: 60px 0px 45px 0px;
+}
+.footer_section2 {
+    width: 100%;
+    float: left;
+    background-color: #252f2d;
+    height: auto;
+    padding: 60px 0px 45px 0px;
+    margin-top: 2400px;
 }
 
 .location_text {
