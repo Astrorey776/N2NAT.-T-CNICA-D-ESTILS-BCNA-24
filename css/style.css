@@ -844,6 +844,13 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.blog_img_12 {
+    width: 100%;
+    background-image: url(../images/presion.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .date_text {
     width: 160px;
     margin: 0 auto;
