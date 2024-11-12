@@ -644,6 +644,11 @@ button {
     opacity: 1;
 }
 
+.portfolio_section .row {
+    display: flex;
+    justify-content: center;
+}
+
 .text {
     color: white;
     font-size: 20px;
@@ -691,6 +696,11 @@ button {
     text-align: center;
     display: flex;
 }
+
+.portfolio_section .prep_text {
+    margin-top: 60px; /* Ajusta el valor según la distancia que desees */
+}
+
 
 .seemore_bt a {
     width: 100%;
@@ -751,6 +761,8 @@ button {
     float: left;
     padding-top: 150px;
 }
+
+
 
 .blog_box {
     width: 100%;
@@ -851,6 +863,58 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+.blog_img_13 {
+    width: 100%;
+    background-image: url(../images/papi.png);
+    height: 440px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_14 {
+    width: 100%;
+    background-image: url(../images/esp.png);
+    height: 440px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_15 {
+    width: 100%;
+    background-image: url(../images/braza.png);
+    height: 440px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_16 {
+    width: 100%;
+    background-image: url(../images/crol.png);
+    height: 440px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.blog_img_17 {
+    width: 100%;
+    background-image: url(../images/sub.png);
+    height: 440px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.faq-section details summary, .faq-section details p {
+    text-align:justify;
+    font-size: 20px; /* Aumenta el tamaño del texto */
+    font-weight: 300; /* Para un peso de texto medio */
+    margin-bottom: 30px;
+    color:white;
+ }
+ 
+ .faq-section details p {
+    color:white;
+    text-align: justify;
+    font-size: 18px; /* Tamaño de fuente más pequeño para las respuestas */
+    margin-top: 5px;
+ }
+ 
+
 .date_text {
     width: 160px;
     margin: 0 auto;
