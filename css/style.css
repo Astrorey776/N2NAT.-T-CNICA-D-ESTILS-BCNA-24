@@ -762,7 +762,19 @@ button {
     padding-top: 150px;
 }
 
+.service-page {
+    background-image: url('../images/club.png');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la página */
+}
 
+.portfolio-page {
+    background-image: url('../images/club2.png');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la página */
+}
 
 .blog_box {
     width: 100%;
